@@ -300,3 +300,8 @@ def train(region_id: str | None = None) -> dict:
 
 if __name__ == "__main__":
     print(json.dumps(train(), indent=2))
+
+
+def main() -> dict:
+    """Entry point for training multi-source models."""
+    return train()

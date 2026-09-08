@@ -1,14 +1,29 @@
+```
+# Python cache
 __pycache__/
 *.pyc
-.venv/
-venv/
-.streamlit/secrets.toml
-.env
-alerts/notification_log.json
-alerts/subscriptions.json
-.DS_Store
-._*
+*.pyo
+*.pyd
+
+# Data files (large datasets)
+data/
+
+# Compressed files
+*.gz
+*.tar.gz
+*.zip
+
+# Configuration and logs
 .mplconfig/
-data/*
-!data/README.md
-.aider*
+*.log
+
+# Dependencies and virtual environments
+venv/
+.venv/
+env/
+.ENV
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
