@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.streamlit/secrets.toml
+.env
+alerts/notification_log.json
+alerts/subscriptions.json
+.DS_Store
+._*
+.mplconfig/
+data/*
+!data/README.md
+.aider*

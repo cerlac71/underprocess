@@ -1,0 +1,113 @@
+{
+  "multi_source": {
+    "region": "uttar_pradesh",
+    "region_name": "Uttar Pradesh",
+    "training_samples": 444690,
+    "test_samples": 88938,
+    "training_years": [
+      2012,
+      2013,
+      2014,
+      2016,
+      2018
+    ],
+    "holdout_year": 2019,
+    "training_end_exclusive": "2019-06-01",
+    "test_period": [
+      "2019-06-01",
+      "2019-09-30"
+    ],
+    "per_source": {
+      "chirps_mm": {
+        "raw": {
+          "mae_mm": 9.384454914724595,
+          "rmse_mm": 16.741455750717932,
+          "r2": -0.13503872982249243,
+          "wet_day_r2": -0.23380844800887068,
+          "wet_day_mae_mm": 15.28356035329484
+        },
+        "corrected": {
+          "mae_mm": 8.079984732585583,
+          "rmse_mm": 14.694949468583964,
+          "r2": 0.12549874679092943,
+          "wet_day_r2": -0.10670255820716368,
+          "wet_day_mae_mm": 12.553168164275208
+        }
+      },
+      "era5_mm": {
+        "raw": {
+          "mae_mm": 8.714155749263595,
+          "rmse_mm": 16.844685265294434,
+          "r2": -0.14907941282618542,
+          "wet_day_r2": -0.3534349847548808,
+          "wet_day_mae_mm": 14.261114842602895
+        },
+        "corrected": {
+          "mae_mm": 8.03673389265881,
+          "rmse_mm": 14.785783164806451,
+          "r2": 0.11465424758720744,
+          "wet_day_r2": -0.10732461644258806,
+          "wet_day_mae_mm": 12.328419992333673
+        }
+      },
+      "merra2_mm": {
+        "raw": {
+          "mae_mm": 7.255929578343625,
+          "rmse_mm": 14.092505450226392,
+          "r2": 0.19573223032745157,
+          "wet_day_r2": 0.011044456779919165,
+          "wet_day_mae_mm": 12.693829132970762
+        },
+        "corrected": {
+          "mae_mm": 7.178605129564457,
+          "rmse_mm": 13.690895810481297,
+          "r2": 0.24091925871281983,
+          "wet_day_r2": 0.030924994596544186,
+          "wet_day_mae_mm": 11.737996684210266
+        }
+      }
+    },
+    "ensemble": {
+      "mae_mm": 6.206131109777653,
+      "rmse_mm": 12.289821373619548,
+      "r2": 0.3883325310105389,
+      "wet_day_r2": 0.20355507798652173,
+      "wet_day_mae_mm": 10.938097888583325
+    },
+    "best_single_source_corrected": "merra2_mm",
+    "enabled_sources": {
+      "chirps_mm": true,
+      "era5_mm": true,
+      "merra2_mm": true
+    },
+    "feature_columns": [
+      "chirps_mm",
+      "era5_mm",
+      "merra2_mm",
+      "elevation_m",
+      "slope_deg",
+      "twi",
+      "lat",
+      "lon",
+      "month",
+      "day_of_year",
+      "source_mean",
+      "source_std",
+      "source_max",
+      "source_range",
+      "doy_sin",
+      "doy_cos",
+      "chirps_lag1_mm",
+      "chirps_antecedent_3d",
+      "chirps_antecedent_5d"
+    ],
+    "model_version": 2,
+    "caveat": "Trained on 6 monsoon seasons (2012-2019) for Uttar Pradesh; holdout year 2019. Ensemble uses raw multi-source inputs with antecedent wetness and seasonal features."
+  },
+  "chirps_legacy": {
+    "skipped": "Belagavi-only trainer; not used for uttar_pradesh"
+  },
+  "convlstm": {
+    "skipped": "Belagavi-only trainer; not used for uttar_pradesh"
+  }
+}

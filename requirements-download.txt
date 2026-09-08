@@ -1,0 +1,8 @@
+# Minimal deps for scripts/download_training_years.py (no richdem)
+numpy
+pandas
+xarray
+scipy
+netCDF4
+requests
+rasterio

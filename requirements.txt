@@ -1,0 +1,28 @@
+numpy
+pandas
+xarray
+scipy
+netCDF4
+h5py
+h5netcdf
+requests
+rasterio
+rioxarray
+matplotlib
+scikit-learn
+joblib
+opencv-python
+torch
+streamlit
+streamlit-folium
+folium
+pillow
+plotly
+# Optional — often fails on Python 3.13 / Apple Silicon (not needed for download/train):
+# richdem
+# pysheds
+# py3dep
+# cfgrib
+# pysteps
+# pytest
+# pytest-cov

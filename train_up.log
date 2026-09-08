@@ -1,0 +1,86 @@
+WARNING:root:pysteps not installed. Falling back to OpenCV for optical flow.
+WARNING:matplotlib:/Users/helloworld/.matplotlib is not a writable directory
+WARNING:matplotlib:Matplotlib created a temporary cache directory at /var/folders/d1/07p_6nt51pxbx0f5573fyvt80000gn/T/matplotlib-vdwa15py because there was an issue with the default path (/Users/helloworld/.matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/helloworld/.cache/fontconfig
+	/Users/helloworld/.fontconfig
+WARNING:root:pysteps not installed. Falling back to OpenCV for optical flow.
+/opt/anaconda3/bin/python: Error while finding module specification for 'forecasting.train_multi_source' (ModuleNotFoundError: No module named 'forecasting')
+{
+  "region": "uttar_pradesh",
+  "region_name": "Uttar Pradesh",
+  "training_samples": 444690,
+  "test_samples": 88938,
+  "training_years": [
+    2012,
+    2013,
+    2014,
+    2016,
+    2018
+  ],
+  "holdout_year": 2019,
+  "training_end_exclusive": "2019-06-01",
+  "test_period": [
+    "2019-06-01",
+    "2019-09-30"
+  ],
+  "per_source": {
+    "chirps_mm": {
+      "raw": {
+        "mae_mm": 9.384454914794452,
+        "rmse_mm": 16.741455750879144,
+        "r2": -0.13503872984435183
+      },
+      "corrected": {
+        "mae_mm": 8.044551890877388,
+        "rmse_mm": 14.573828639691941,
+        "r2": 0.13985521681989566
+      }
+    },
+    "era5_mm": {
+      "raw": {
+        "mae_mm": 8.714155749263595,
+        "rmse_mm": 16.844685265294434,
+        "r2": -0.1490794128261852
+      },
+      "corrected": {
+        "mae_mm": 8.020521156072595,
+        "rmse_mm": 14.706994390812898,
+        "r2": 0.12406456472855643
+      }
+    },
+    "merra2_mm": {
+      "raw": {
+        "mae_mm": 7.255929578343626,
+        "rmse_mm": 14.092505450226392,
+        "r2": 0.19573223032745168
+      },
+      "corrected": {
+        "mae_mm": 7.162159026065666,
+        "rmse_mm": 13.617475111649613,
+        "r2": 0.2490389318947872
+      }
+    }
+  },
+  "ensemble": {
+    "mae_mm": 7.084902392904792,
+    "rmse_mm": 13.295682055087045,
+    "r2": 0.2841113377969202
+  },
+  "best_single_source_corrected": "merra2_mm",
+  "enabled_sources": {
+    "chirps_mm": true,
+    "era5_mm": true,
+    "merra2_mm": true
+  },
+  "caveat": "Trained on 6 monsoon seasons (2012-2019) for Uttar Pradesh; holdout year 2019."
+}
+WARNING:root:pysteps not installed. Falling back to OpenCV for optical flow.
+WARNING:rasterio._env:CPLE_AppDefined in PROJ: internal_proj_create_from_database: /opt/anaconda3/share/proj/proj.db contains DATABASE.LAYOUT.VERSION.MINOR = 2 whereas a number >= 6 is expected. It comes from another PROJ installation.
+WARNING:rasterio._env:CPLE_AppDefined in PROJ: internal_proj_create_from_name: /opt/anaconda3/share/proj/proj.db contains DATABASE.LAYOUT.VERSION.MINOR = 2 whereas a number >= 6 is expected. It comes from another PROJ installation.
+WARNING:rasterio._env:CPLE_AppDefined in PROJ: internal_proj_create_from_database: /opt/anaconda3/share/proj/proj.db contains DATABASE.LAYOUT.VERSION.MINOR = 2 whereas a number >= 6 is expected. It comes from another PROJ installation.
+WARNING:rasterio._env:CPLE_AppDefined in PROJ: internal_proj_create_from_name: /opt/anaconda3/share/proj/proj.db contains DATABASE.LAYOUT.VERSION.MINOR = 2 whereas a number >= 6 is expected. It comes from another PROJ installation.
+WARNING:rasterio._env:CPLE_AppDefined in PROJ: internal_proj_create_from_database: /opt/anaconda3/share/proj/proj.db contains DATABASE.LAYOUT.VERSION.MINOR = 2 whereas a number >= 6 is expected. It comes from another PROJ installation.
+WARNING:rasterio._env:CPLE_AppDefined in PROJ: internal_proj_create_from_name: /opt/anaconda3/share/proj/proj.db contains DATABASE.LAYOUT.VERSION.MINOR = 2 whereas a number >= 6 is expected. It comes from another PROJ installation.

@@ -1,0 +1,51 @@
+2026-09-07 07:40:39,345 INFO Fetching elevation grid for Uttar Pradesh ({'lat_min': 23.5, 'lat_max': 30.5, 'lon_min': 77.0, 'lon_max': 84.5})
+2026-09-07 07:40:40,192 INFO Fetched elevations 20/899
+2026-09-07 07:40:41,389 INFO Fetched elevations 40/899
+2026-09-07 07:40:42,586 INFO Fetched elevations 60/899
+2026-09-07 07:40:43,779 INFO Fetched elevations 80/899
+2026-09-07 07:40:44,971 INFO Fetched elevations 100/899
+2026-09-07 07:40:46,167 INFO Fetched elevations 120/899
+2026-09-07 07:40:47,358 INFO Fetched elevations 140/899
+2026-09-07 07:40:48,551 INFO Fetched elevations 160/899
+2026-09-07 07:40:49,744 INFO Fetched elevations 180/899
+2026-09-07 07:40:51,078 INFO Fetched elevations 200/899
+2026-09-07 07:40:52,282 INFO Fetched elevations 220/899
+2026-09-07 07:40:53,476 INFO Fetched elevations 240/899
+2026-09-07 07:40:54,796 INFO Fetched elevations 260/899
+2026-09-07 07:40:55,992 INFO Fetched elevations 280/899
+2026-09-07 07:40:57,189 INFO Fetched elevations 300/899
+2026-09-07 07:40:58,383 INFO Fetched elevations 320/899
+2026-09-07 07:40:59,582 INFO Fetched elevations 340/899
+2026-09-07 07:41:00,793 INFO Fetched elevations 360/899
+2026-09-07 07:41:01,983 INFO Fetched elevations 380/899
+2026-09-07 07:41:03,197 INFO Fetched elevations 400/899
+2026-09-07 07:41:04,388 INFO Fetched elevations 420/899
+2026-09-07 07:41:05,581 INFO Fetched elevations 440/899
+2026-09-07 07:41:06,786 INFO Fetched elevations 460/899
+2026-09-07 07:41:07,981 INFO Fetched elevations 480/899
+2026-09-07 07:41:09,221 INFO Fetched elevations 500/899
+2026-09-07 07:41:10,419 INFO Fetched elevations 520/899
+2026-09-07 07:41:11,645 INFO Fetched elevations 540/899
+2026-09-07 07:41:12,941 INFO Fetched elevations 560/899
+2026-09-07 07:41:14,207 INFO Fetched elevations 580/899
+2026-09-07 07:41:15,423 INFO Fetched elevations 600/899
+2026-09-07 07:41:16,632 INFO Fetched elevations 620/899
+2026-09-07 07:41:17,828 INFO Fetched elevations 640/899
+2026-09-07 07:41:19,034 INFO Fetched elevations 660/899
+2026-09-07 07:41:20,391 INFO Fetched elevations 680/899
+2026-09-07 07:41:21,609 INFO Fetched elevations 700/899
+2026-09-07 07:41:22,950 INFO Fetched elevations 720/899
+2026-09-07 07:41:24,152 INFO Fetched elevations 740/899
+2026-09-07 07:41:25,511 INFO Fetched elevations 760/899
+2026-09-07 07:41:26,714 INFO Fetched elevations 780/899
+2026-09-07 07:41:28,008 INFO Fetched elevations 800/899
+2026-09-07 07:41:29,215 INFO Fetched elevations 820/899
+2026-09-07 07:41:30,416 INFO Fetched elevations 840/899
+2026-09-07 07:41:31,647 INFO Fetched elevations 860/899
+2026-09-07 07:41:32,947 INFO Fetched elevations 880/899
+2026-09-07 07:41:34,233 INFO Fetched elevations 899/899
+2026-09-07 07:41:35,390 INFO Saved terrain -> /Users/helloworld/Desktop/SIH/SIH2026/data/regions/uttar_pradesh/terrain
+dem: /Users/helloworld/Desktop/SIH/SIH2026/data/regions/uttar_pradesh/terrain/dem_uttar_pradesh.tif
+slope: /Users/helloworld/Desktop/SIH/SIH2026/data/regions/uttar_pradesh/terrain/slope_uttar_pradesh.tif
+twi: /Users/helloworld/Desktop/SIH/SIH2026/data/regions/uttar_pradesh/terrain/twi_uttar_pradesh.tif
+flow_accum: /Users/helloworld/Desktop/SIH/SIH2026/data/regions/uttar_pradesh/terrain/flow_accum_uttar_pradesh.tif
